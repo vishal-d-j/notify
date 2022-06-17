@@ -11,6 +11,10 @@ import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
 public class MynotificationManager {
+    public static final int v=0;
+    public static final int v2=0;
+    public static final int v3=0;
+
 
     static MynotificationManager mynotificationManager;
     public String mchannelId="Mynotification";
@@ -52,6 +56,8 @@ public class MynotificationManager {
             notificationChannel.setDescription(mDescription);
             NotificationManager notificationManager= getInstance().context.getSystemService(NotificationManager.class);
             notificationManager.createNotificationChannel(notificationChannel);
+            //Hello world
+            //hello world from new banch 1
         }
 
 
