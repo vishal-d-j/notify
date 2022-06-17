@@ -11,7 +11,7 @@ import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
 public class MynotificationManager {
-
+    public static final int v4=00;
     static MynotificationManager mynotificationManager;
     public String mchannelId="Mynotification";
     NotificationManagerCompat notificationManagerCompat;
